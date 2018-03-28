@@ -97,7 +97,7 @@ end
 def won?(board)
 <<<<<<< HEAD
   WIN_COMBINATIONS.find do |idx|
-    if idx.all? {|i| board[i] == "X" }  
+    if idx.all? {|i| board[i] == "X" } == true
       idx
     elsif idx.all? {|i| board[i] == "O" } == true
       idx
